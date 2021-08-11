@@ -4,7 +4,7 @@ dstformat='pdb'
 waterincluded=0
 ForceField AMBER14
 central=0
-skippedsnapshots=0
+skippedsnapshots=9
 if MacroTarget==''
   RaiseError "This macro requires a target. Either edit the macro file or click Options > Macro > Set target to choose a target structure"
 if srcformat=='' or dstformat==''
